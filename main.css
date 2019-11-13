@@ -1,0 +1,50 @@
+body, html, header, article, aside, footer,ul,li,a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    display: flex;
+    flex-flow: row wrap;
+}
+div  {
+    display: flex;
+    justify-content:space-between;
+}
+
+
+header, article, aside, footer {
+    width: 100%;
+}
+.foo {
+    float: right;
+    margin: 1%;
+    padding: 1%;
+}
+img{
+    border:2px solid #FF77FF;
+}
+
+.flexbox{
+    background-color: fuchsia;
+}
+
+a {
+    display: block;
+}
+
+li {
+    text-decoration: none;
+    padding: 11px;
+}
+ul {
+    list-style: none;
+    background-color: fuchsia;
+}
+h2{
+    color: black;
+    text-align: center;
+}
+

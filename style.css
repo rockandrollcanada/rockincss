@@ -1,0 +1,33 @@
+body {
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: ghostwhite;
+    
+}
+
+header, article, aside, footer {
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    background: black;
+}
+
+article {
+    text-align: left;
+    background: hotpink;
+}
+
+aside:nth-child(3) {
+    background: white;
+}
+
+aside:nth-child(4) {
+    background: white;
+}
+
+footer {
+    background: black;
+}
+
